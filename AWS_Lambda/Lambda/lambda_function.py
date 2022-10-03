@@ -135,7 +135,7 @@ def recommend_portfolio(intent_request):
     if risk_level == "None":
         return("Your recommended portfolio composition is: 100% bonds (AGG), 0% equities (SPY)")
     if risk_level == "Low":
-        return("Your recommended portfolio composition is: 60% bonds (AGG), 40% equities (SPY))
+        return("Your recommended portfolio composition is: 60% bonds (AGG), 40% equities (SPY)")
     if risk_level == "Medium":
         return("Your recommended portfolio composition is: 40% bonds (AGG), 60% equities (SPY)")
     if risk_level == "High":
